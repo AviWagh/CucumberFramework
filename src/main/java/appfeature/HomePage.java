@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HomePage 
 {
 	WebDriver driver;
-	@FindBy(xpath="//*[@class=\"nav-cart-icon nav-sprite\"]") //sprite
+	@FindBy(xpath="//*[@class=\"nav-cart-icon nav-\"]") //sprite
 	private WebElement cartButton;
 	
 	@FindBy(xpath="//span[@id=\"nav-link-accountList-nav-line-1\"]")
