@@ -15,7 +15,7 @@ public class Homepage_StepDefinition {
 	public void user_is_at_amazon_portal()
 	{
 		WebDriver driver = DriverFactory.getDriver();
-		driver.get("https://amazon.in");
+		driver.get("https://amazon.in ");
 	}
 
 	@Then("Title should contains the {string}")
